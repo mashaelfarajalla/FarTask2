@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'Montserrat-Arabic';
+    src: url(../fonts/Montserrat-Arabic\ Regular\ 400.otf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Arabic-500';
+    src: url(../fonts/Montserrat-Arabic\ Medium\ 500.otf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Arabic-600';
+    src: url(../fonts/Montserrat-Arabic\ SemiBold\ 600.otf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Arabic-700';
+    src: url(../fonts/Montserrat-Arabic\ Bold\ 700.otf);
+}
+
+
 body {
     font-family: 'Montserrat-Arabic';
     color: #3D464D;
@@ -63,6 +84,7 @@ body {
 }
 
 .container-fluid .headertop .headricons .spantitle {
+    font-family: 'Montserrat-Arabic-500';
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -105,6 +127,7 @@ body {
 }
 
 .container-fluid .navbar ul li .nav-link.active {
+    font-family: 'Montserrat-Arabic-600';
     font-weight: 600;
 }
 
@@ -127,6 +150,7 @@ body {
     font-weight: 700;
     font-size: 100px;
     line-height: 122px;
+    font-family: 'Montserrat-Arabic-700';
 }
 
 .container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption h1 span {
@@ -190,41 +214,58 @@ body {
 }
 
 
-.container-fluid .setion1 .card {
+.container-fluid .setion1 .card,
+.container-fluid .setion2 .card {
     border: 1px solid #F5F6F6;
 }
 
-.container-fluid .setion1 .card .carousel .carousel-inner {
+.container-fluid .setion1 .card .carousel .carousel-inner,
+.container-fluid .setion2 .card .carousel .carousel-inner {
     background-color: #F5F5F5;
 }
 
-.container-fluid .setion1 .card .carousel .w-100 {
-    height: 206px;
-    width: 192px !important;
+.container-fluid .setion1 .card .carousel .w-100,
+.container-fluid .setion2 .card .carousel .w-100 {
+    margin: 0 auto;
+    height: 249px;
+    width: 238px !important;
+    padding: 22px;
 }
 
-.container-fluid .setion1 .card .carousel .carousel-indicators {
-    bottom: -40px;
+.container-fluid .setion1 .card .carousel .carousel-indicators,
+.container-fluid .setion2 .card .carousel .carousel-indicators {
+    bottom: -18px;
 }
 
-.container-fluid .setion1 .card .carousel .carousel-indicators [data-bs-target] {
+.container-fluid .setion1 .card .carousel .carousel-indicators [data-bs-target],
+.container-fluid .setion2 .card .carousel .carousel-indicators [data-bs-target] {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: #D9D9D9;
 }
 
-.container-fluid .setion1 .card .carousel .carousel-indicators .active {
+.container-fluid .setion1 .card .carousel .carousel-indicators .active,
+.container-fluid .setion2 .card .carousel .carousel-indicators .active {
     opacity: 1;
     background-color: #3D464D;
 }
 
 
-.container-fluid .setion1 .card .card-body {
+.container-fluid .setion1 .card .card-body,
+.container-fluid .setion2 .card .card-body {
+    /* background: #FEFEFE; */
+    display: flex;
+    height: 300px;
     background: #FEFEFE;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.container-fluid .setion1 .card .card-body h5 {
+.container-fluid .setion1 .card .card-body h5,
+.container-fluid .setion2 .card .card-body h5 {
+    padding-left: 33px;
+    font-weight: 400px;
     font-size: 20px;
     line-height: 145%;
     text-align: right;
@@ -232,6 +273,7 @@ body {
 
 }
 
+.container-fluid .setion2 .card .card-body p,
 .container-fluid .setion1 .card .card-body p {
     font-size: 20px;
     line-height: 24px;
@@ -239,28 +281,34 @@ body {
 
 }
 
-.container-fluid .setion1 .card .card-body p span.price {
+.container-fluid .setion1 .card .card-body p span.price,
+.container-fluid .setion2 .card .card-body p span.price {
     font-weight: bold;
 
 }
 
-.container-fluid .setion1 .card .card-body .pdiscount {
+.container-fluid .setion1 .card .card-body .pdiscount,
+.container-fluid .setion2 .card .card-body .pdiscount {
+    font-family: 'Montserrat-Arabic-500';
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     /* text-align: center; */
 }
 
-.container-fluid .setion1 .card .card-body .pdiscount .discount1 {
+.container-fluid .setion1 .card .card-body .pdiscount .discount1,
+.container-fluid .setion2 .card .card-body .pdiscount .discount1 {
     text-decoration-line: line-through;
 }
 
-.container-fluid .setion1 .card .card-body .pdiscount .discount2 {
+.container-fluid .setion1 .card .card-body .pdiscount .discount2,
+.container-fluid .setion2 .card .card-body .pdiscount .discount2 {
     color: #028C59;
 }
 
-
-.container-fluid .setion1 .card .card-body .pstore {
+.container-fluid .setion1 .card .card-body .pstore,
+.container-fluid .setion2 .card .card-body .pstore {
+    font-family: 'Montserrat-Arabic-500';
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -268,7 +316,9 @@ body {
     color: #259BD6;
 }
 
-.container-fluid .setion1 .card .card-body .reviews {
+.container-fluid .setion1 .card .card-body .reviews,
+.container-fluid .setion2 .card .card-body .reviews {
+    font-family: 'Montserrat-Arabic-500';
     font-weight: 500;
     font-size: 10px;
     line-height: 12px;
@@ -276,6 +326,26 @@ body {
     margin-bottom: 1rem; */
 }
 
-.container-fluid .setion1 .card .card-body .reviews .spanstar {
+.container-fluid .setion1 .card .card-body .reviews .spanstar,
+.container-fluid .setion2 .card .card-body .reviews .spanstar {
     color: #FCA120;
+}
+
+.container-fluid .setion2 .card .circle2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 87.63px;
+    position: absolute;
+    height: 87.63px;
+    border-radius: 50%;
+    background: #EC1C2E;
+    transform: rotate(-11.68deg);
+    z-index: 1;
+    color: white;
+}
+
+.container-fluid .section3 .img-fluid {
+    height: 100%;
 }
