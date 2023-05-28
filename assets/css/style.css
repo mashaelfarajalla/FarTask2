@@ -368,3 +368,59 @@ body {
 .container-fluid .section3 .img-fluid {
     height: 100%;
 }
+
+.container-fluid .section3 .relative {
+    position: relative;
+}
+
+.container-fluid .section3 .overtext {
+    position: absolute;
+    top: 33px;
+    right: 36px;
+}
+
+.container-fluid .section3 .overtext h1 {
+    font-family: 'Montserrat-Arabic-700';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #F5F6F6;
+}
+
+.container-fluid .section3 .overtext h3 {
+    font-family: 'Montserrat-Arabic-700';
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    color: #F5F6F6;
+}
+
+.container-fluid .section4 .card .card-img-top ,
+.container-fluid .section5 .card .card-img-top {
+    padding: 21px;
+    height: 250px;
+}
+
+.container-fluid .section4 .card ,
+.container-fluid .section5 .card{
+    background: #F5F5F5;
+    border: 1px solid #F5F6F6;
+}
+
+.container-fluid .section4 .card .card-body ,
+.container-fluid .section5 .card .card-body{
+    text-align: center;
+    background: #FEFEFE;
+}
+
+.container-fluid .section4 .card .card-body h5 , 
+.container-fluid .section5 .card .card-body h5 {
+    font-family: 'Montserrat-Arabic-500';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
