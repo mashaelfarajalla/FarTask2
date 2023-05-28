@@ -103,6 +103,8 @@ body {
     color: #FFD333;
     border-color: #FFD333;
     border-radius: 30px;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .container-fluid .headertop .btn-outline-warning:hover {
@@ -131,17 +133,16 @@ body {
     font-weight: 600;
 }
 
-.container-fluid .sliderhome .col-8 {
+.container-fluid .sliderhome .col-7 {
     background-color: #F5F6F6;
 }
 
 
 .container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption {
-    top: 0;
+    padding: 0;
+    top: 46px;
+    right: 7%;
     color: #3D464D;
-
-    /* identical to box height */
-
     text-align: right;
 
 }
@@ -169,8 +170,8 @@ body {
     margin-top: 0;
     margin-right: auto;
     margin-left: 20px;
-    width: 688px !important;
-    height: 468px;
+    width: 574px !important;
+    height: 566px;
 }
 
 .container-fluid .sliderhome .carousel-indicators {
@@ -189,6 +190,24 @@ body {
     background-color: #FFD333;
     opacity: 1;
 }
+
+.container-fluid .sliderhome .overtext {
+    top: 46px;
+    right: 39px;
+    position: absolute;
+}
+
+.container-fluid .sliderhome .overtext h2 {
+    font-family: 'Montserrat-Arabic-500';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 78px;
+    /* text-align: right; */
+
+    color: #FFFFFF;
+}
+
 
 .container-fluid .markting .circle {
     width: 173px;
