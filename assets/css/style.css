@@ -1,4 +1,10 @@
 @font-face {
+    font-family: 'Montserrat-Arabic-275';
+    src: url(../fonts/Montserrat-Arabic\ ExtraLight\ 275.otf);
+}
+
+
+@font-face {
     font-family: 'Montserrat-Arabic';
     src: url(../fonts/Montserrat-Arabic\ Regular\ 400.otf);
 }
@@ -395,25 +401,25 @@ body {
     color: #F5F6F6;
 }
 
-.container-fluid .section4 .card .card-img-top ,
+.container-fluid .section4 .card .card-img-top,
 .container-fluid .section5 .card .card-img-top {
     padding: 21px;
     height: 250px;
 }
 
-.container-fluid .section4 .card ,
-.container-fluid .section5 .card{
+.container-fluid .section4 .card,
+.container-fluid .section5 .card {
     background: #F5F5F5;
     border: 1px solid #F5F6F6;
 }
 
-.container-fluid .section4 .card .card-body ,
-.container-fluid .section5 .card .card-body{
+.container-fluid .section4 .card .card-body,
+.container-fluid .section5 .card .card-body {
     text-align: center;
     background: #FEFEFE;
 }
 
-.container-fluid .section4 .card .card-body h5 , 
+.container-fluid .section4 .card .card-body h5,
 .container-fluid .section5 .card .card-body h5 {
     font-family: 'Montserrat-Arabic-500';
     font-style: normal;
@@ -423,4 +429,101 @@ body {
     text-align: right;
     letter-spacing: -0.02em;
     text-align: center;
+}
+
+.container-fluid .circle3 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #323539;
+    margin: 0 5px;
+}
+
+.container-fluid .topfooter {
+    padding: 25px;
+}
+
+.container-fluid .topfooter .titleinformation {
+    font-family: 'Montserrat-Arabic-500';
+    font-style: normal;
+    font-weight: 500;
+    text-align: right;
+}
+
+.container-fluid .topfooter .titleinformation p {
+
+    font-size: 32px;
+    line-height: 39px;
+
+}
+
+.container-fluid .topfooter .titleinformation span {
+
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.container-fluid .topfooter .information {
+    font-size: 18px;
+    line-height: 150.4%;
+    font-family: 'Montserrat-Arabic-275';
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container-fluid .footer {
+    background: #F5F6F6;
+    padding: 25px;
+}
+
+.container-fluid .footer .col-lg-auto {
+    margin: 0 5px;
+}
+
+.container-fluid .footer h5 {
+    font-family: 'Montserrat-Arabic-500';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.container-fluid .footer ul.list-unstyled {
+    padding-right: 0;
+}
+
+.container-fluid .footer ul li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    text-decoration: none;
+    color: #3D464D;
+}
+
+.container-fluid .endfooter .Square {
+    width: 85px;
+    height: 46.07px;
+    background: #F5F6F6;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid .endfooter p {
+    font-family: 'Montserrat-Arabic-275';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 16px;
+    line-height: 150.4%;
+    text-align: right;
+margin-bottom: 0;
+    color: #3D464D;
 }
