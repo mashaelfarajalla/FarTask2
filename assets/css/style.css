@@ -31,15 +31,32 @@ body {
     font-weight: 400;
 }
 
+a {
+    text-decoration: none;
+    color: #3D464D;
+}
+
+a:hover {
+    color: #3D464D;
+}
+
 
 .container-fluid h3 {
     font-size: 22px;
     line-height: 29px;
 }
 
+.container-fluid h1 a,
+.container-fluid h3 a {
+    color: #F5F6F6;
+    ;
+    text-decoration: none;
+}
+
 .container-fluid .headertop {
     padding: 15px 0;
 }
+
 
 .container-fluid .headertop h4 {
     font-size: 40px;
@@ -107,7 +124,8 @@ body {
 }
 
 .container-fluid .headertop .btn-outline-warning {
-    width: 115px;
+    text-align: center;
+    width: 125px;
     height: 55px;
     color: #FFD333;
     border-color: #FFD333;
@@ -134,13 +152,64 @@ body {
 }
 
 .container-fluid .navbar ul li {
-    margin: 0 10px;
+    margin: 0px 23px;
 }
 
 .container-fluid .navbar ul li .nav-link.active {
     font-family: 'Montserrat-Arabic-600';
     font-weight: 600;
 }
+
+.container-fluid .navbar .dropdown-toggle::after {
+    border-top: 0;
+}
+
+.container-fluid .navbar li {
+    list-style-type: none;
+}
+
+.container-fluid .dropdown-menu ul {
+    padding: 0;
+    text-align: start;
+}
+
+.container-fluid .dropdown-menu li {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+
+.container-fluid .dropdown-menu .dropdown-item,
+.container-fluid .dropdown-menu p {
+    padding: 0.25rem 0rem;
+    text-align: start;
+    /* padding-left: ; */
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    width: 820px;
+    padding: 24px 24px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .Square2 {
+    display: flex;
+    border: 1px solid whitesmoke;
+
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.dropdown-menu[data-bs-popper] {
+    right: 0;
+}
+
+.container-fluid .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
 
 .container-fluid .sliderhome .col-7 {
     background-color: #F5F6F6;
@@ -177,9 +246,9 @@ body {
 
     margin-top: 0;
     margin-right: auto;
-    margin-left: 20px;
-    width: 574px !important;
-    height: 566px;
+    margin-left: 25px;
+    width: 796px !important;
+    height: 648px;
 }
 
 .container-fluid .sliderhome .carousel-indicators {
@@ -216,6 +285,7 @@ body {
 
 
 .container-fluid .markting .circle {
+    margin: 0 auto;
     width: 173px;
     height: 173px;
     border-radius: 50%;
@@ -526,4 +596,24 @@ body {
     text-align: right;
     margin-bottom: 0;
     color: #3D464D;
+}
+
+.container-fluid.search .sectiontitle span {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.container-fluid.search .sectiontitle button {
+
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #3D464D;
+    border-radius: 30px;
+    width: 198px;
+    height: 55px;
+}
+
+.container-fluid.search .sectiontitle button:hover svg path {
+
+    fill: white;
 }
