@@ -188,8 +188,11 @@ a:hover {
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
-    width: 820px;
-    padding: 24px 24px;
+    /* width: 1008px; */
+    width: 975px;
+    padding: 27px 27px;
+    /* right: -88px; */
+    right: -220px;
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu .Square2 {
@@ -201,8 +204,13 @@ a:hover {
     justify-content: center;
 }
 
+
+.Square2 .img-fluid {
+    max-width: 140px;
+}
+
 .dropdown-menu[data-bs-popper] {
-    right: 0;
+    /* right: 0; */
 }
 
 .container-fluid .navbar .dropdown:hover .dropdown-menu {
@@ -316,15 +324,20 @@ a:hover {
 
 .container-fluid .setion1 .card .carousel .carousel-inner,
 .container-fluid .setion2 .card .carousel .carousel-inner {
+    height: 331px;
     background-color: #F5F5F5;
+}
+
+.container-fluid .setion1 .card .btn-warning {
+    background: #FFD333;
 }
 
 .container-fluid .setion1 .card .carousel .w-100,
 .container-fluid .setion2 .card .carousel .w-100 {
     margin: 0 auto;
-    height: 249px;
-    width: 238px !important;
-    padding: 22px;
+    height: 272px;
+    width: 219px !important;
+    padding: 15px;
 }
 
 .container-fluid .setion1 .card .carousel .carousel-indicators,
@@ -474,7 +487,7 @@ a:hover {
 .container-fluid .section4 .card .card-img-top,
 .container-fluid .section5 .card .card-img-top {
     padding: 21px;
-    height: 250px;
+    height: 325px;
 }
 
 .container-fluid .section4 .card,
@@ -553,7 +566,7 @@ a:hover {
 }
 
 .container-fluid .footer .col-lg-auto {
-    margin: 0 5px;
+    margin: 0 30px;
 }
 
 .container-fluid .footer h5 {
@@ -617,3 +630,11 @@ a:hover {
 
     fill: white;
 }
+
+
+
+@media screen and (min-width: 992px) {}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {}
