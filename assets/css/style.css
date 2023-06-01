@@ -168,6 +168,13 @@ a:hover {
     list-style-type: none;
 }
 
+.container-fluid .dropdown {
+
+    position: inherit;
+
+}
+
+
 .container-fluid .dropdown-menu ul {
     padding: 0;
     text-align: start;
@@ -189,10 +196,11 @@ a:hover {
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
     /* width: 1008px; */
-    width: 975px;
+    /* width: 975px; */
+    width: 1978px;
     padding: 27px 27px;
     /* right: -88px; */
-    right: -220px;
+    right: 0px;
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu .Square2 {
@@ -574,7 +582,8 @@ a:hover {
     font-size: 18px;
     line-height: 34px;
     text-decoration: none;
-    color: #3D464D;
+    /* color: #3D464D; */
+    color: #3d464d8a;
 }
 
 .container-fluid .endfooter .Square {
