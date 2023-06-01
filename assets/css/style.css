@@ -209,9 +209,9 @@ a:hover {
     max-width: 140px;
 }
 
-.dropdown-menu[data-bs-popper] {
-    /* right: 0; */
-}
+/* .dropdown-menu[data-bs-popper] {
+    /* right: 0; 
+} */
 
 .container-fluid .navbar .dropdown:hover .dropdown-menu {
     display: block;
