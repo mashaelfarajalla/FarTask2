@@ -444,8 +444,9 @@ a:hover {
 }
 
 .container-fluid .section3 .img-fluid {
-    width: 100% !important;
+    /* width: 100% !important; */
     height: 100%;
+    width: 100% !important;
 }
 
 .container-fluid .section3 .relative {
