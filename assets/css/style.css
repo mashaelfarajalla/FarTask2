@@ -219,7 +219,7 @@ a:hover {
 
 
 
-.container-fluid .sliderhome .col-7 {
+.container-fluid .sliderhome .col-lg-7 {
     background-color: #F5F6F6;
 }
 
@@ -246,7 +246,6 @@ a:hover {
 
 .container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption p {
     font-weight: 400;
-    font-size: 36px;
     line-height: 44px;
 }
 
@@ -255,8 +254,7 @@ a:hover {
     margin-top: 0;
     margin-right: auto;
     margin-left: 25px;
-    width: 796px !important;
-    height: 648px;
+
 }
 
 .container-fluid .sliderhome .carousel-indicators {
@@ -277,16 +275,12 @@ a:hover {
 }
 
 .container-fluid .sliderhome .overtext {
-    top: 46px;
-    right: 39px;
+
     position: absolute;
 }
 
 .container-fluid .sliderhome .overtext h2 {
-    font-family: 'Montserrat-Arabic-500';
     font-style: normal;
-    font-weight: 500;
-    font-size: 60px;
     line-height: 78px;
     color: #FFFFFF;
 }
@@ -324,7 +318,6 @@ a:hover {
 
 .container-fluid .setion1 .card .carousel .carousel-inner,
 .container-fluid .setion2 .card .carousel .carousel-inner {
-    height: 331px;
     background-color: #F5F5F5;
 }
 
@@ -335,8 +328,7 @@ a:hover {
 .container-fluid .setion1 .card .carousel .w-100,
 .container-fluid .setion2 .card .carousel .w-100 {
     margin: 0 auto;
-    height: 272px;
-    width: 219px !important;
+
     padding: 15px;
 }
 
@@ -401,7 +393,6 @@ a:hover {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    /* text-align: center; */
 }
 
 .container-fluid .setion1 .card .card-body .pdiscount .discount1,
@@ -444,9 +435,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 87.63px;
     position: absolute;
-    height: 87.63px;
     border-radius: 50%;
     background: #EC1C2E;
     transform: rotate(-11.68deg);
@@ -455,6 +444,7 @@ a:hover {
 }
 
 .container-fluid .section3 .img-fluid {
+    width: 100% !important;
     height: 100%;
 }
 
@@ -468,7 +458,7 @@ a:hover {
     right: 36px;
 }
 
-.container-fluid .section3 .overtext h1 {
+/* .container-fluid .section3 .overtext h1 {
     font-family: 'Montserrat-Arabic-700';
     font-weight: 700;
     font-size: 64px;
@@ -482,12 +472,11 @@ a:hover {
     font-size: 46px;
     line-height: 60px;
     color: #F5F6F6;
-}
+} */
 
 .container-fluid .section4 .card .card-img-top,
 .container-fluid .section5 .card .card-img-top {
     padding: 21px;
-    height: 325px;
 }
 
 .container-fluid .section4 .card,
@@ -506,8 +495,7 @@ a:hover {
 .container-fluid .section5 .card .card-body h5 {
     font-family: 'Montserrat-Arabic-500';
     font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
+    font-weight: 500;
     line-height: 38px;
     text-align: right;
     letter-spacing: -0.02em;
@@ -565,9 +553,7 @@ a:hover {
     padding: 25px;
 }
 
-.container-fluid .footer .col-lg-auto {
-    margin: 0 30px;
-}
+
 
 .container-fluid .footer h5 {
     font-family: 'Montserrat-Arabic-500';
@@ -633,8 +619,223 @@ a:hover {
 
 
 
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
 
-@media screen and (max-width: 767px) {}
 
-@media screen and (min-width: 768px) and (max-width: 991px) {}
+    .container-fluid .sliderhome .overtext {
+        top: 46px;
+        right: 39px;
+    }
+
+    .container-fluid .sliderhome .overtext h2 {
+        font-family: 'Montserrat-Arabic-500';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+    }
+
+    .container-fluid .setion1 .card .carousel .w-100,
+    .container-fluid .setion2 .card .carousel .w-100 {
+
+        height: 272px;
+        width: 219px !important;
+    }
+
+    .container-fluid .setion1 .card .carousel .carousel-inner,
+    .container-fluid .setion2 .card .carousel .carousel-inner {
+        height: 331px;
+        background-color: #F5F5F5;
+    }
+
+    .container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 100px;
+    }
+
+    .container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 36px;
+    }
+
+
+    .container-fluid .setion2 .card .circle2 {
+
+        width: 87.63px;
+        height: 87.63px;
+    }
+
+    .container-fluid .section4 .card .card-img-top,
+    .container-fluid .section5 .card .card-img-top {
+        padding: 21px;
+        height: 325px;
+    }
+
+    .container-fluid .section4 .card .card-body h5,
+    .container-fluid .section5 .card .card-body h5 {
+
+        font-size: 24px;
+    }
+
+    .container-fluid .sliderhome .carousel-inner .carousel-item .w-100 {
+
+
+        width: 796px !important;
+        height: 648px;
+    }
+
+    .container-fluid .footer .col-lg-auto {
+        margin: 0 30px;
+    }
+
+    .container-fluid .endfooter {
+        height: 86px;
+    }
+
+    .container-fluid .footer .iocnsmedia .justifyend {
+        justify-content: end;
+    }
+
+    .container-fluid .footer .iocnsmedia .justifyend h4 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .container-fluid .sliderhome .overtext {
+        top: 5px;
+        right: 25px;
+    }
+
+    .container-fluid .sliderhome .overtext h2 {
+        font-family: 'Montserrat-Arabic-700';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 30px;
+        line-height: 64px !important;
+    }
+
+    .container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 20px;
+    }
+
+    .container-fluid .setion1 .card .carousel .w-100,
+    .container-fluid .setion2 .card .carousel .w-100 {
+
+        height: 207px;
+        width: 161px !important;
+    }
+
+    .container-fluid .setion1 .card .carousel .carousel-inner,
+    .container-fluid .setion2 .card .carousel .carousel-inner {
+        height: 267px;
+        background-color: #F5F5F5;
+    }
+
+    .container-fluid .setion2 .card .circle2 {
+
+        width: 67.63px;
+        height: 67.63px;
+    }
+
+    .container-fluid .section4 .card .card-img-top,
+    .container-fluid .section5 .card .card-img-top {
+        height: 210px;
+    }
+
+    .container-fluid .section4 .card .card-body h5,
+    .container-fluid .section5 .card .card-body h5 {
+
+        font-size: 15px;
+        ;
+    }
+
+    .container-fluid .sliderhome .carousel-inner .carousel-item .w-100 {
+
+
+        width: 3567x !important;
+        height: 387px;
+    }
+
+    .container-fluid .footer .iocnsmedia .justifyend {
+        justify-content: start;
+    }
+
+    .container-fluid .footer .iocnsmedia .justifyend h4 {
+        text-align: start;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .container-fluid .sliderhome .overtext {
+        top: 46px;
+        right: 39px;
+    }
+
+    .container-fluid .sliderhome .overtext h2 {
+        font-family: 'Montserrat-Arabic-600';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    .container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 70px;
+    }
+
+    .container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 27px;
+    }
+
+    .container-fluid .setion1 .card .carousel .w-100,
+    .container-fluid .setion2 .card .carousel .w-100 {
+
+        height: 272px;
+        width: 219px !important;
+    }
+
+    .container-fluid .setion1 .card .carousel .carousel-inner,
+    .container-fluid .setion2 .card .carousel .carousel-inner {
+        height: 331px;
+        background-color: #F5F5F5;
+    }
+
+    .container-fluid .setion2 .card .circle2 {
+
+        width: 87.63px;
+        height: 87.63px;
+    }
+
+    .container-fluid .section4 .card .card-img-top,
+    .container-fluid .section5 .card .card-img-top {
+        padding: 21px;
+        height: 325px;
+    }
+
+    .container-fluid .section4 .card .card-body h5,
+    .container-fluid .section5 .card .card-body h5 {
+        font-size: 24px;
+    }
+
+    .container-fluid .sliderhome .carousel-inner .carousel-item .w-100 {
+
+
+        width: 796px !important;
+        height: 648px;
+    }
+
+    .container-fluid .endfooter .iconimage {
+        justify-content: center !important;
+    }
+
+    .container-fluid .footer .iocnsmedia .justifyend {
+        justify-content: start;
+    }
+
+    .container-fluid .footer .iocnsmedia .justifyend h4 {
+        text-align: start;
+    }
+}
