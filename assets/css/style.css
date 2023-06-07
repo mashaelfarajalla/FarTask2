@@ -152,7 +152,7 @@ a:hover {
 }
 
 .container-fluid .navbar ul li {
-    margin: 0px 23px;
+    margin: 0px 21px;
 }
 
 .container-fluid .navbar ul li .nav-link.active {
@@ -180,6 +180,11 @@ a:hover {
     text-align: start;
 }
 
+
+.container-fluid .dropdown:hover {
+    background-color: #eeeeeef3;
+}
+
 .container-fluid .dropdown-menu li {
     margin-left: auto !important;
     margin-right: 0 !important;
@@ -190,14 +195,16 @@ a:hover {
     padding: 0.25rem 0rem;
     text-align: start;
     /* padding-left: ; */
-    font-size: 16px;
-    line-height: 32px;
+    /* font-size: 16px;
+    line-height: 32px; */
+    font-size: 20px;
+    line-height: 39px;
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
     /* width: 1008px; */
     /* width: 975px; */
-    width: 1978px;
+    /* width: 1978px; */
     padding: 27px 27px;
     /* right: -88px; */
     right: 0px;
@@ -214,16 +221,49 @@ a:hover {
 
 
 .Square2 .img-fluid {
-    max-width: 140px;
+    /* max-width: 140px; */
+    max-width: 245px;
 }
 
-/* .dropdown-menu[data-bs-popper] {
-    /* right: 0; 
-} */
+
 
 .container-fluid .navbar .dropdown:hover .dropdown-menu {
     display: block;
+    width: 100%;
 }
+
+.container-fluid .sidebar {
+    background-color: #ffffff;
+    box-shadow: 0px 6px 10px 2px #a0a0a0;
+    position: fixed;
+    bottom: 0;
+    z-index: 39;
+    width: 100%;
+    height: 10vh;
+}
+
+.container-fluid .sidebar .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #ffd333;
+}
+
+.container-fluid .sidebar .tooltip2 {
+    font-size: 11px;
+    color: rgb(64, 69, 83);
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -232,32 +272,33 @@ a:hover {
 }
 
 
-.container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption {
+.container-fluid .sliderhome .item .caption {
+    position: absolute;
     padding: 0;
-    top: 46px;
-    right: 7%;
+    top: 90px;
+    right: 10%;
     color: #3D464D;
     text-align: right;
 
 }
 
-.container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption h1 {
+.container-fluid .sliderhome .item .caption h1 {
     font-weight: 700;
     font-size: 100px;
     line-height: 122px;
     font-family: 'Montserrat-Arabic-700';
 }
 
-.container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption h1 span {
+.container-fluid .sliderhome .item .caption h1 span {
     color: #FFD333;
 }
 
-.container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption p {
+.container-fluid .sliderhome .item .caption p {
     font-weight: 400;
     line-height: 44px;
 }
 
-.container-fluid .sliderhome .carousel-inner .carousel-item .w-100 {
+.container-fluid .sliderhome .item .w-100 {
 
     margin-top: 0;
     margin-right: auto;
@@ -265,17 +306,11 @@ a:hover {
 
 }
 
-.container-fluid .sliderhome .carousel-indicators {
+/* .container-fluid .sliderhome .carousel-indicators {
     bottom: -15px;
-}
+} */
 
-.container-fluid .sliderhome .carousel-indicators [data-bs-target] {
-    border-radius: 50%;
-    height: 20px;
-    width: 19.6px;
-    background-color: #D9D9D9;
-    ;
-}
+
 
 .container-fluid .sliderhome .carousel-indicators .active {
     background-color: #FFD333;
@@ -322,6 +357,10 @@ a:hover {
 .container-fluid .setion1 .card,
 .container-fluid .setion2 .card {
     border: 1px solid #F5F6F6;
+}
+
+.container-fluid .card .carousel:hover {
+    cursor: pointer;
 }
 
 .container-fluid .setion1 .card .carousel .carousel-inner,
@@ -657,11 +696,19 @@ a:hover {
         background-color: #F5F5F5;
     }
 
-    .container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption h1 {
+    .container-fluid .sliderhome .item .w-100 {
+
+        width: 56% !important;
+        /* width: 796px !important; */
+        /* height: 648px !important; */
+        ;
+    }
+
+    .container-fluid .sliderhome .item .caption h1 {
         font-size: 100px;
     }
 
-    .container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption p {
+    .container-fluid .sliderhome .item .caption p {
         font-size: 36px;
     }
 
@@ -675,7 +722,7 @@ a:hover {
     .container-fluid .section4 .card .card-img-top,
     .container-fluid .section5 .card .card-img-top {
         padding: 21px;
-        height: 325px;
+        height: 415px;
     }
 
     .container-fluid .section4 .card .card-body h5,
@@ -684,12 +731,12 @@ a:hover {
         font-size: 24px;
     }
 
-    .container-fluid .sliderhome .carousel-inner .carousel-item .w-100 {
+    /* .container-fluid .sliderhome .item .w-100 {
 
 
         width: 796px !important;
         height: 648px;
-    }
+    } */
 
     .container-fluid .footer .col-lg-auto {
         margin: 0 30px;
@@ -762,7 +809,7 @@ a:hover {
         ;
     }
 
-    .container-fluid .sliderhome .carousel-inner .carousel-item .w-100 {
+    .container-fluid .sliderhome .item .w-100 {
 
 
         width: 3567x !important;
@@ -792,11 +839,11 @@ a:hover {
         font-size: 40px;
     }
 
-    .container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption h1 {
+    .container-fluid .sliderhome .item .caption h1 {
         font-size: 70px;
     }
 
-    .container-fluid .sliderhome .carousel-inner .carousel-item .carousel-caption p {
+    .container-fluid .sliderhome .item .caption p {
         font-size: 27px;
     }
 
@@ -830,9 +877,7 @@ a:hover {
         font-size: 24px;
     }
 
-    .container-fluid .sliderhome .carousel-inner .carousel-item .w-100 {
-
-
+    .container-fluid .sliderhome .mySwiper2 .item .w-100 {
         width: 796px !important;
         height: 648px;
     }
