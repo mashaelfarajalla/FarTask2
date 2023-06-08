@@ -917,12 +917,12 @@ a:hover {
     }
 
     .container-fluid .markting .circle {
-        width: 156px;;
+        width: 156px !important;
         height: 156px;
     }
 
     .container-fluid .markting .circle svg {
-        width: 77px;
+        width: 77px !important;
         height: 77px;
     }
 
