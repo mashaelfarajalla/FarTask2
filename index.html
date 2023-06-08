@@ -37,18 +37,18 @@
 <body>
     <div class="container-fluid ">
         <div class="row headertop     justify-content-around  align-items-center">
-            <div class="col col-md col-lg-auto">
+            <div class="col-auto my-3 my-lg-0 order-1 order-md-1 col-md col-lg-auto">
                 <h4>
                     <a href="#"> متجر <span>اوفرتا</span></a>
                 </h4>
             </div>
-            <div class="col col-md  col-lg-auto search_bar d-md-block">
+            <div class="col-auto order-3 order-md-2 col-md  col-lg-auto search_bar d-md-block">
                 <form class="row">
                     <input class="col-10  me-2" type="search" placeholder="بحث" aria-label="Search">
                     <button class="col-2 btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </div>
-            <div class="col-auto headricons d-none d-lg-block">
+            <div class="col-auto order-lg-3 headricons d-none d-lg-block">
                 <div class="row">
                     <div class="col-auto">
                         <a href="#">
@@ -129,7 +129,7 @@
 
                 </div>
             </div>
-            <div class="col col-md  col-lg-auto">
+            <div class="col-auto  order-2 order-md-4 col-md  col-lg-auto">
                 <button type="button" class="btn btn-outline-warning">انضم ك متجر</button>
 
             </div>
@@ -951,15 +951,6 @@
 
                             </div>
                         </div>
-                        <!-- <div class="swiper-slide">
-                            <div class="item">
-                                <img src="assets/images/silder-1.png" class="d-block w-100" alt="...">
-                                <div class="caption ">
-                                    <h1> متجر <span>اوفرتا</span></h1>
-                                    <p>أفضل المنتجات و أفضل العروض..</p>
-                                </div>
-                            </div>
-                        </div>
                         <div class="swiper-slide">
                             <div class="item">
                                 <img src="assets/images/silder-1.png" class="d-block w-100" alt="...">
@@ -977,7 +968,16 @@
                                     <p>أفضل المنتجات و أفضل العروض..</p>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <img src="assets/images/silder-1.png" class="d-block w-100" alt="...">
+                                <div class="caption ">
+                                    <h1> متجر <span>اوفرتا</span></h1>
+                                    <p>أفضل المنتجات و أفضل العروض..</p>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                     <div class="swiper-pagination"></div>
@@ -4193,30 +4193,6 @@
 
 
 
-        // document.addEventListener('DOMContentLoaded', function () {
-        //     var carousels = document.querySelectorAll('.carousel');
-        //     var carouselIntervals = [];
-        //     var interval;
-        //     carousels.forEach(function (carousel) {
-        //         carousel.addEventListener('mouseenter', function () {
-        //             interval = setInterval(function () {
-
-        //                 $(carousel).carousel('next');
-
-        //             }, 1000); // Change the delay (in milliseconds) between slides here
-
-        //             carouselIntervals.push(interval);
-        //         });
-
-        //         carousel.addEventListener('mouseleave', function () {
-        //             // clearInterval(carouselIntervals.pop());
-        //             clearInterval(interval);
-        //             var index = carouselIntervals.indexOf(interval);
-        //             carouselIntervals.splice(index, 1);
-        //         });
-        //     });
-        // });
-
 
         document.addEventListener('DOMContentLoaded', function () {
             var carousels = document.querySelectorAll('.carousel');
@@ -4247,13 +4223,13 @@
             },
 
 
-            slidesPerView: 2,
+            slidesPerView: 2.5,
             spaceBetween: 10,
             // Responsive breakpoints
             breakpoints: {
                 // when window width is >= 320px
                 320: {
-                    slidesPerView: 2,
+                    slidesPerView: 2.5,
                     spaceBetween: 40
                 },
                 // when window width is >= 480px
