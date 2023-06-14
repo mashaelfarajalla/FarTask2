@@ -14111,11 +14111,12 @@
     <script>
 
         var swiper = new Swiper(".mySwiper", {
+            simulateTouch: false,
 
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
-                preventClicks: true,
+
 
                 renderBullet: function (index, className) {
                     return '<span class="' + className + '">' + (index + 1) + "</span>";
@@ -14128,7 +14129,6 @@
 
 
         const categorymeun = document.querySelector('.categorymeun');
-        // const open = document.querySelector(".imageopen")
         let submenu;
         categorymeun.addEventListener("click", (e) => {
 
@@ -14187,24 +14187,6 @@
 
 
 
-        // const Squarecolor = document.querySelectorAll(".Squarecolor");
-
-        // Squarecolor.forEach(function (item) {
-        //     item.addEventListener('click', function (event) {
-        //         if (item.classList.contains('active')) {
-
-        //             item.classList.remove("active");
-
-
-        //         }
-        //         else {
-        //             item.classList.toggle("active");
-
-        //         }
-
-        //     });
-        // });
-        // var header = document.getElementById("myDIV");
         var btns = document.querySelectorAll(".Squarecolor");
         for (var i = 0; i < btns.length; i++) {
             btns[i].addEventListener("click", function () {
